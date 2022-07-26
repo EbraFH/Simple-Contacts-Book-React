@@ -1,0 +1,16 @@
+
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+/* making header body and footer one under other */
+body {
+  background: beige;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  /* making body centered */
+  margin: 0 auto;
+
+}
