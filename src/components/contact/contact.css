@@ -1,0 +1,29 @@
+img {
+  /* making the image round */
+  width: 25%;
+  border-radius: 50%;
+  margin-left: 1rem;
+  margin-right: 2rem;
+  margin-top: 1rem;
+}
+.contIco {
+  font-size: 1.1rem;
+}
+
+.contactInfo {
+  margin-left: 4rem;
+}
+
+.deleteContact {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+/* for each contact its divided to 3 columns 
+column for image
+colum contact name
+column for the 3 buttons */
+.oneContact {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+}

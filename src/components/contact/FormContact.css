@@ -1,0 +1,32 @@
+.overlay {
+  /* centering the pop up */
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* styling the pop up it self */
+.overlay .popup {
+  background: #fff;
+  padding: 2em;
+  border-radius: 10px;
+  width: 25rem;
+}
+/* exit button  styled to the right side of the pop up*/
+.overlay .close {
+  color: white;
+  margin-left: 90%;
+}
+
+button {
+  padding: 1rem;
+  background: black;
+  color: white;
+  border-radius: 2rem;
+  letter-spacing: 1px;
+}
